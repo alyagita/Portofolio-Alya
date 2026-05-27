@@ -286,8 +286,10 @@ footer { background: var(--wine-d, #3d0a0a); color: rgba(241,226,209,0.5); paddi
   nav { padding: 1rem 1.5rem; }
   .nav-links { gap: 1rem; }
   .nav-links a { font-size: 0.62rem; }
-  #hero { grid-template-columns: 1fr; padding: 6rem 1.5rem 3rem; }
-  .hero-right { display: none; }
+  #hero { grid-template-columns: 1fr; padding: 6rem 1.5rem 3rem; gap: 2rem; }
+  .hero-right { display: flex; justify-content: center; order: -1; }
+  .hero-visual-card { width: 180px; }
+  .hero-visual-card::before { display: none; }
   h1.hero-name { white-space: normal; font-size: clamp(2.6rem, 8vw, 3.5rem); }
   section, #journey-org, #journey-work { padding: 4rem 1.5rem; }
   .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 2.5rem; }
@@ -360,7 +362,7 @@ footer { background: var(--wine-d, #3d0a0a); color: rgba(241,226,209,0.5); paddi
         <p>
           I have an interest in data analysis, machine learning, and business, with experience working on various academic projects related to data processing, data visualization, data modeling, system analysis, and recommendation systems. Through these projects, I developed analytical thinking and problem-solving skills while learning how data and technology can support better decision-making. I enjoy learning new things, working collaboratively, and adapting to new environments.
         </p>
-        <a href="https://drive.google.com/file/d/1iGzLg4aLhxDqPk2QNn8D8QzZqYkRT_-Y/view?usp=sharing" target="_blank" class="cv-box">
+        <a href="https://drive.google.com/drive/folders/1UP7PZvhAY-vfLnzEiYB4KyzehzGrjOUV?usp=drive_link" target="_blank" class="cv-box">
           <div class="cv-box-icon">📄</div>
           <div class="cv-box-text">
             <div class="label">Download / View</div>
@@ -439,7 +441,6 @@ footer { background: var(--wine-d, #3d0a0a); color: rgba(241,226,209,0.5); paddi
         <div class="courses-label">Relevant Courses</div>
         <div class="courses-list">
           <span class="course-pill">Data Analysis and Visualization</span>
-          <span class="course-pill">Database</span>
           <span class="course-pill">Machine Learning</span>
           <span class="course-pill">Business Data Analysis</span>
           <span class="course-pill">Data Mining</span>
@@ -680,7 +681,7 @@ footer { background: var(--wine-d, #3d0a0a); color: rgba(241,226,209,0.5); paddi
           <div class="tl-photo"><img src="images/afl1.jpg" alt="AFL"></div>
           <div class="tl-photo"><img src="images/afl2.jpg" alt="AFL"></div>
           <div class="tl-photo"><img src="images/afl3.jpg" alt="AFL"></div>
-          <div class="tl-photo"><img src="images/afl4.jpg" alt="AFL"></div>
+          <div class="tl-photo"><img src="images/afl1.jpg" alt="AFL"></div>
         </div>
       </div>
 
